@@ -1,0 +1,69 @@
+{
+  "name": "board-game",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "ssh": "ssh alankaz19@104.199.254.24 -p 22 -i \"C:/Users/alank/.ssh/id_rsa\""
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^2.6.5",
+    "google": "^2.1.0",
+    "please-wait": "0.0.5",
+    "vee-validate": "^2.2.13",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.4",
+    "vue-facebook-login-component": "^1.3.6",
+    "vue-i18n": "^8.12.0",
+    "vue-image-crop-upload": "^2.5.0",
+    "vue-loading-overlay": "^3.2.0",
+    "vue-router": "^3.0.3",
+    "vue-scrollto": "^2.15.0",
+    "vue-socket.io": "^3.0.7",
+    "vue2-google-maps": "^0.10.7",
+    "vuetify": "^1.5.16",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-service": "^3.9.3",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-cli-plugin-vuetify": "^0.5.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.3.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
