@@ -9,7 +9,7 @@
     "ssh": "ssh alankaz19@104.199.254.24 -p 22 -i \"C:/Users/alank/.ssh/id_rsa\""
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "core-js": "^2.6.5",
     "google": "^2.1.0",
